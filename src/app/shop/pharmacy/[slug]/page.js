@@ -1,8 +1,8 @@
 import MedicineList from "@/components/medicine-list";
 import { getMedicines } from "@/lib/data";
 
-export default async function Page({ params }) {
-    const medicines = await getMedicines(params.slug);
+export default function Page({ params }) {
+    const medicines = getMedicines(params.slug);
 
     return (
         <div>
