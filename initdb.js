@@ -364,7 +364,7 @@ const medicine = [
 const medicine_pharmacy = [
     {
         medicine_slug: "piriton-allergy-tablets",
-        pharmacy_slug: "anc-ua",
+        pharmacy_slug: "med-service-ua",
         price: "2.25",
     },
     {
